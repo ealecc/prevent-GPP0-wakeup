@@ -1,0 +1,10 @@
+[Unit]
+Description="Prevent immediate wakeup on suspend
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo GPP0 > /proc/acpi/wakeup"
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=sleep.target
