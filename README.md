@@ -7,4 +7,4 @@ Specifically for Linux on a gigabyte aorus B550 motherboard, my computer will im
 
 # Installation
 
-As per the comment above, create 'preventGPP0wakeup.service' in '/etc/systemd/system/' then run 'sudo systemctl daemon-reload && sudo systemctl enable preventGPP0wakeup'.
+As per the comment above, create `preventGPP0wakeup.service` in `/etc/systemd/system/` then run `sudo systemctl daemon-reload && sudo systemctl enable preventGPP0wakeup`.
